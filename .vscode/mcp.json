@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "weather-mcp-server": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "-m",
+        "weather_mcp_server"
+      ],
+      "cwd": "src"
+    }
+  }
+}
